@@ -17,6 +17,8 @@ To strat application ,run:
 npm start
 ### Features
 __-Dashboard__: A dashboard is used for user input. Users can choose whether to analyse carbon growth emissions in a particular year or year range and in a particular region or country as shown in Figure 1. 
+### Figure 1: Dasboard
+![Dashboard](images/Dashboard.png)
 
 
 __-Write and Save Report__: Writes a report table of different parameters regarding the carbon growth emissions in the selected time frame and region when the button enter is pressed as shown in Figure 2.The parameters vary depending on selection used. The common parameters are region/country, year/year range, and total growth emissions. If year range is used the average, maximum , and minimum annual carbon growth emissions are calculated and presented. If region is selected the average, maximum, and minimum national carbon growth emissions are calculated and presented. Additionally, the width of the table changes depending on string length.
