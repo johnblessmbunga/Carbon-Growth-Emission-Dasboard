@@ -28,7 +28,7 @@ The parameters vary depending on selection used. The common parameters are regio
 
 __-Save Report__: The report can be saved into an excel file by clicking the save button. The filename will be generated based on time frame and region selected.
 
-__-Error Handling__: The calculations of the carbon growth emission parameters only begin when enter button prssed and all necessary inputs are valid.
+__-Error Handling__: The calculations of the carbon growth emission parameters only begin when enter button pressed and all necessary inputs are valid.
 ## License
 This project is licensed under MIT license.
 
