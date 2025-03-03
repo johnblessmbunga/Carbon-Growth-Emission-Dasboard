@@ -21,7 +21,10 @@ __-Dashboard__: A dashboard is used for user input. Users can choose whether to 
 ![Dashboard](images/Dashboard.png)
 
 
-__-Write and Save Report__: Writes a report table of different parameters regarding the carbon growth emissions in the selected time frame and region when the button enter is pressed as shown in Figure 2.The parameters vary depending on selection used. The common parameters are region/country, year/year range, and total growth emissions. If year range is used the average, maximum , and minimum annual carbon growth emissions are calculated and presented. If region is selected the average, maximum, and minimum national carbon growth emissions are calculated and presented. Additionally, the width of the table changes depending on string length.
+__-Write and Save Report__: Writes a report table of different parameters regarding the carbon growth emissions in the selected time frame and region when the button enter is pressed as shown in Figure 2.
+### Figure 2 : Dashboard with Report
+![Dashboard_Report](images/Dashboard_with_Report.png)
+The parameters vary depending on selection used. The common parameters are region/country, year/year range, and total growth emissions. If year range is used the average, maximum , and minimum annual carbon growth emissions are calculated and presented. If region is selected the average, maximum, and minimum national carbon growth emissions are calculated and presented. Additionally, the width of the table changes depending on string length.
 
 __-Save Report__: The report can be saved into an excel file by clicking the save button. The filename will be generated based on time frame and region selected.
 
@@ -30,4 +33,5 @@ __-Error Handling__: The calculations of the carbon growth emission parameters o
 This project is licensed under MIT license.
 
 ### Acknowledgements
-Thanks to the os library for providing backend framework.
+Thanks to the Kagglehub, os, pandas, tkinter, and openpyxl  library for providing backend framework. 
+Addtionally I extend my thanks to Samith Chimminiyan for creating and sharing dataset on Kagglehub
