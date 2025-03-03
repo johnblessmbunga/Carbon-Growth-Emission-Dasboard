@@ -329,6 +329,7 @@ for reg_excl in regions_excluded:
 years = sorted(df['Year'].unique(), reverse=True)
 # make display board
 window = Tk()
+window.title('Carbon Growth Emissions')
 # variables
 year_range_sel = StringVar()
 start_year = StringVar()
