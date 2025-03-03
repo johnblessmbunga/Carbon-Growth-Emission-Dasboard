@@ -21,14 +21,28 @@ __-Dashboard__: A dashboard is used for user input. Users can choose whether to 
 ![Dashboard](images/Dashboard.png)
 
 
-__-Write and Save Report__: Writes a report table of different parameters regarding the carbon growth emissions in the selected time frame and region when the button enter is pressed as shown in Figure 2.
+__-Write and Save Report__: Writes a report table of different parameters regarding the carbon growth emissions in the selected time frame and region when the button Enter is pressed as shown in Figure 2.
 ### Figure 2 : Dashboard with Report
 ![Dashboard_Report](images/Dashboard_with_Report.png)
-The parameters vary depending on selection used. The common parameters are region/country, year/year range, and total growth emissions. If year range is used the average, maximum , and minimum annual carbon growth emissions are calculated and presented. If region is selected the average, maximum, and minimum national carbon growth emissions are calculated and presented. Additionally, the width of the table changes depending on string length.
+The parameters vary depending on selection used. The common parameters include 
 
-__-Save Report__: The report can be saved into an excel file by clicking the save button. The filename will be generated based on time frame and region selected.
+-region/country 
 
-__-Error Handling__: The calculations of the carbon growth emission parameters only begin when enter button pressed and all necessary inputs are valid.
+-year/year range
+
+-total growth emissions.
+
+Additional calculation are performed based on input:
+
+If year range is used the average, maximum , and minimum annual carbon growth emissions are calculated and presented.
+
+If region is selected the average, maximum, and minimum national carbon growth emissions are calculated and presented. 
+
+Additionally, the width of the table changes depending on string length.
+
+__-Save Report__: The report can be saved into an excel file by clicking the Save button. The filename will be generated based on time frame and region selected.
+
+__-Error Handling__: The calculations of the carbon growth emission parameters only begin when Enter button pressed and all necessary inputs are valid.
 ## License
 This project is licensed under MIT license.
 
